@@ -1,8 +1,8 @@
 fn main() {
-    let x = 42; // Inferido como i32
-    let y = 3.14; // Inferido como f64
-    let z = true; // Inferido como bool
-    let c = 'A'; // Inferido como char
+    let a = 10; // Tipo inferido como i32
+    let b = 20u8; // Tipo especificado como u8
 
-    println!("x: {}, y: {}, z: {}, c: {}", x, y, z, c);
+    let c = a + b as i32; // 'b' é convertido para i32 antes da adição
+
+    println!("c: {}", c);
 }
