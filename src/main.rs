@@ -1,10 +1,8 @@
 fn main() {
-    let a = 10;
-    let b = 3;
+    let x = true;
+    let y = false;
 
-    println!("a + b = {}", a + b); // 13
-    println!("a - b = {}", a - b); // 7
-    println!("a * b = {}", a * b); // 30
-    println!("a / b = {}", a / b); // 3
-    println!("a % b = {}", a % b); // 1
+    println!("x && y = {}", x && y); // false
+    println!("x || y = {}", x || y); // true
+    println!("!x = {}", !x);         // false
 }
